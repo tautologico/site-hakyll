@@ -9,9 +9,9 @@ import           Hakyll
 
 --------------------------------------------------------------------------------
 
-staticPages :: [String]
-staticPages = ["about.md", "contact.markdown", "pesquisa.html", 
-               "ensino.md", "temastrab.md"]
+staticPages :: [Identifier]
+staticPages = map fromFilePath ["about.md", "pesquisa.html", 
+                                "ensino.md", "temastrab.md", "teoria.md"]
 
 main :: IO ()
 main = hakyll $ do
@@ -26,7 +26,7 @@ main = hakyll $ do
         compile compressCssCompiler
 
     -- Compile static pages
-    match (fromList []) $ do
+    match (fromList staticPages) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
