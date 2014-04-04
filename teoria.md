@@ -18,6 +18,14 @@ Vídeos
     - [Modelos de Estados Finitos](http://youtu.be/kHFtilFs3pk)
     - [Autômatos Finitos Determinísticos](http://youtu.be/igdoI9UTQdg)
     - [Exemplos de AFDs](http://youtu.be/DumsmJtJMC8)
+    - [Autômatos Finitos Não-Determinísticos](http://youtu.be/lix1VmIHeIA)
+    - [Exemplos de AFNs](http://youtu.be/_LpJTWeYQKY)
+    - [Relação entre AFDs e AFNs](http://youtu.be/fcq8UJpj8tI)
+    - [Expressões Regulares](http://youtu.be/PF-IloiWHko)
+    - [Exemplos de ERs](http://youtu.be/bj3HBOFzx3E)
+    - [Relação entre ERs e AFs](http://youtu.be/tx37p3KGXRg)
+    - [Linguagens Não-Regulares](http://youtu.be/9WbJ-ByzFr0)
+    - [Lema do Bombeamento](http://youtu.be/klwGBOlydBw)
 
 Links
 -----
